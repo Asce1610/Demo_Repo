@@ -1,8 +1,8 @@
 ---
 title: "BSMM-lab-1"
 subtitle: "BSMM 8740 Fall 2023"
-author: "Ritwika Wripridistha"
-date: "18 September 2023"
+author: "Sairam Kumaran"
+date: "22 September 2023"
 format: html
 editor: visual
 self-contained: true
@@ -102,7 +102,7 @@ mets_ben
 
 ```{r}
 mets_ben |>
-  dplyr::summarize(
+  summarize(
     num_years = n(), 
     total_W = sum(W), 
     total_L = sum(L), 
@@ -114,7 +114,6 @@ mets_ben |>
 ### Exercise 9
 
 ```{r}
-
 ```
 
 ### Exercise 10
